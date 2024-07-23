@@ -7,23 +7,19 @@ math = true
 
 ## Generating from Large Language Models (LLMs)
 
-#### A quick refresher on Autoregressive text generation
+### A quick refresher on Autoregressive text generation
 
-## Example of Python Code
-
-```python
-def hello_world():
-    print("Hello, world!")
-```
-```
-echo "Hello, world!"
-```
+{{< centered-image src="/images/decoding_1.png" alt="Alt text" width="300" height="100" >}}
 
 
+In an autoregressive language model, the probability of each token in the sequence is calculated based on the preceding tokens. For instance, the model first calculates the probability of the first token given the context (this might be the input prompt given by the user or can be unconditional text generation as well). Then, it calculates the probability of the second token given the first generated token and the context, the probability of the third token given the first two generated tokens and the context, and so on.
 
-In an autoregressive language model, the probability of each token in the sequence is calculated based on the preceding tokens. For instance, the model first calculates the probability of the first token. Then it calculates the probability of the second token given the first token, the probability of the third token given the first two tokens, and so on. In autoregressive text generation models, at each time step \( t \), our model takes in a sequence of tokens as input \( \{y\}_{<t} \) and outputs a new token \( y_t \).
+### Decoding what is it about?
 
-#### Greedy Decoding
+What does calculating the probability of the first token mean?
+At each time step $t$, the model takes in the preceding context  $y_{<t}$  and computes a vector of scores $\mathbf{S} \in \mathbb{R}^v$, where $v$ is the vocabulary size. For GPT-2, the vocabulary size is 50,257 tokens.
+
+### Greedy Decoding
 
 The idea here is straightforward. Like in any other classification task such as image classification, we just get the argmax as the answer. This is exactly what greedy decoding is.
 

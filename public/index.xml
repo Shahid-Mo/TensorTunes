@@ -9,11 +9,25 @@
     <lastBuildDate>Tue, 23 Jul 2024 13:24:37 -0400</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Decoding</title>
+      <link>//localhost:1313/post/test/</link>
+      <pubDate>Tue, 23 Jul 2024 13:24:37 -0400</pubDate>
+      <guid>//localhost:1313/post/test/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Decoding from Language Models</title>
       <link>//localhost:1313/post/decoding/</link>
       <pubDate>Tue, 23 Jul 2024 13:24:37 -0400</pubDate>
       <guid>//localhost:1313/post/decoding/</guid>
-      <description>Generating from Large Language Models (LLMs) A quick refresher on Autoregressive text generation Example of Python Code def hello_world(): print(&amp;#34;Hello, world!&amp;#34;) echo &amp;#34;Hello, world!&amp;#34; In an autoregressive language model, the probability of each token in the sequence is calculated based on the preceding tokens. For instance, the model first calculates the probability of the first token. Then it calculates the probability of the second token given the first token, the probability of the third token given the first two tokens, and so on.</description>
+      <description>Generating from Large Language Models (LLMs) A quick refresher on Autoregressive text generation In an autoregressive language model, the probability of each token in the sequence is calculated based on the preceding tokens. For instance, the model first calculates the probability of the first token given the context (this might be the input prompt given by the user or can be unconditional text generation as well). Then, it calculates the probability of the second token given the first generated token and the context, the probability of the third token given the first two generated tokens and the context, and so on.</description>
+    </item>
+    <item>
+      <title>test_sara</title>
+      <link>//localhost:1313/post/test_sara/</link>
+      <pubDate>Tue, 23 Jul 2024 13:24:37 -0400</pubDate>
+      <guid>//localhost:1313/post/test_sara/</guid>
+      <description>def hello_world(): print(&amp;#34;Hello, world!&amp;#34;) echo &amp;#34;Hello, world!&amp;#34; </description>
     </item>
   </channel>
 </rss>
