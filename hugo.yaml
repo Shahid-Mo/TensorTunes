@@ -1,0 +1,11 @@
+baseURL: ""
+languageCode: en-us
+title: TensorTunes
+theme: ["PaperMod"]
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+params:
+  math: true

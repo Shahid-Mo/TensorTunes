@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on TensorTunes</title>
+    <link>//localhost:1313/post/</link>
+    <description>Recent content in Posts on TensorTunes</description>
+    <generator>Hugo -- 0.129.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 23 Jul 2024 13:24:37 -0400</lastBuildDate>
+    <atom:link href="//localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Decoding from Language Models</title>
+      <link>//localhost:1313/post/decoding/</link>
+      <pubDate>Tue, 23 Jul 2024 13:24:37 -0400</pubDate>
+      <guid>//localhost:1313/post/decoding/</guid>
+      <description>Generating from Large Language Models (LLMs) A quick refresher on Autoregressive text generation In an autoregressive language model, the probability of each token in the sequence is calculated based on the preceding tokens. For instance, the model first calculates the probability of the first token. Then it calculates the probability of the second token given the first token, the probability of the third token given the first two tokens, and so on.</description>
+    </item>
+  </channel>
+</rss>
