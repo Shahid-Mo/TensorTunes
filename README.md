@@ -1,2 +1,2 @@
 # TensorTunes
-Shahid Mohiuddin blog
+Shahid Mohiuddin's blog
